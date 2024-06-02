@@ -63,7 +63,7 @@ th, td {
 }
 
 th {
-    background-color: #4CAF50;
+    background-color: #5ec461;
     color: white;
 }
 
@@ -93,10 +93,10 @@ th {
   }
   .btn {
     border-radius: 10px;
-    border: 1px solid #45a049;
-    color: #4CAF50;
+    border: 1px solid #1a3a4a;
+    color: #4aab4f;
   }
   .btn:hover{
-    border: 1px solid #4CAF50;
-    color: #45a049;
+    border: 1px solid #457656;
+    color: #209c27;
   }
