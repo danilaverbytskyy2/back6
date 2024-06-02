@@ -50,12 +50,8 @@
           <option <?php ChooseLanguage($langs, "Scala") ?> value="Scala">Scala</option>
         </select>
       </label>
-
       <label for="editBiography">Биография:</label>
-      <br/>
-      <textarea id="editBiography" name="editBiography"><?=$_COOKIE['biography_value']?></textarea><br>
-
-      <br/>
+      <textarea id="editBiography" name="editBiography"><?=$_COOKIE['biography_value']?></textarea>
       <label for="editCheckContract">Согласие:</label>
       <input type="checkbox" class="checkbox" id="editCheckContract" <?php if($_COOKIE['checkcontract_value'] == 1) print "checked" ?> name="editCheckContract"><br>
 
