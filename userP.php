@@ -50,8 +50,7 @@
           <option <?php ChooseLanguage($langs, "Scala") ?> value="Scala">Scala</option>
         </select>
       </label>
-      <br/>
-      <br/>
+
       <label for="editBiography">Биография:</label>
       <br/>
       <textarea id="editBiography" name="editBiography"><?=$_COOKIE['biography_value']?></textarea><br>
