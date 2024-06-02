@@ -23,7 +23,7 @@ body {
   }
   
   input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #0f4d11;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -32,7 +32,7 @@ body {
   }
   
   input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #074c0b;
   }
   .error{
     color: maroon;
@@ -63,13 +63,13 @@ th, td {
 }
 
 th {
-    background-color: #5ec461;
+    background-color: #972c6e;
     color: white;
 }
 
   .column{
     width: 20px;
-    background-color: #4CAF50;
+    background-color: #902550;
     margin: 10px 20px;
   }
   .stat{
