@@ -129,7 +129,7 @@ function DeleteUser($id)
 
 function GetLanguageStats()
 {
-  $db = new PDO('mysql:host=localhost;dbname=db', 'u67342', '1591330',//your login and pass
+  $db = new PDO('mysql:host=localhost;dbname=u67342', 'u67342', '1591330',//your login and pass
   [PDO::ATTR_PERSISTENT => true, PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
   try{
