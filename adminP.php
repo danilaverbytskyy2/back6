@@ -13,14 +13,14 @@
 <table id="userTable">
   <thead>
     <tr>
-      <th>Fio</th>
+      <th>ФИО</th>
       <th>Email</th>
-      <th>Year</th>
-      <th>Gender</th>
-      <th>Languages</th>
-      <th>Biography</th>
-      <th>Check Contract</th>
-      <th>Action</th>
+      <th>Год</th>
+      <th>Гендер</th>
+      <th>Языки</th>
+      <th>Биография</th>
+      <th>Согласие</th>
+      <th>Действия</th>
     </tr>
   </thead>
   <tbody>
@@ -36,7 +36,7 @@
         <td> <?php echo $user['checkcontract']; ?></td>
         <td>
         <form action="" method="post"> 
-          <button class="btn tur btn-reset" name="Edit" type="submit">Редактировать</button>  | 
+          <button class="btn tur btn-reset" name="Edit" type="submit">Изменить</button>  |
           <button class="btn tur btn-reset" name="Delete"  type="submit">Удалить</button> 
           <input name="id" value="<?=$user['id']?>" type="hidden"/>
           <input name="fio" value="<?=$user['fio']?>" type="hidden"/>
