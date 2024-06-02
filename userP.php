@@ -36,7 +36,7 @@
         Пол:
         <label><input name="gender" type="radio" value="male" <?php if($_COOKIE['gender_value']=="male") {print "checked";} else print($_COOKIE['gender_value']); ?>/> Мужчина </label>
         <label><input name="gender" type="radio" value="female" <?php if($_COOKIE['gender_value']=="female") {print "checked";}  else print($_COOKIE['gender_value']); ?>/> Женщина </label>
-        Выберете ваши любимые языки программирования:
+        <br>Выберете ваши любимые языки программирования:
         <select name="field-multiple-language[]" multiple="multiple">
           <option <?php ChooseLanguage($langs, "Pascal") ?> value="Pascal">Pascal</option>
           <option <?php ChooseLanguage($langs, "JavaScript") ?> value="JavaScript">JavaScript</option>
